@@ -224,7 +224,7 @@ export default {
     },
     falta() {
       moment.locale('es');
-      return moment().to(moment('2017-11-10'));
+      return moment().to(moment('2017-11-01'));
     }
   }
 }
