@@ -110,6 +110,9 @@
           </div>
         </div>
       </div>
+      <div class="text-center">
+          <a href="/bases.pdf" class="btn btn-info btn-lg">Descarga las bases legales</a>
+      </div>
     </div>
   </section>
   <!--Service-->
@@ -146,7 +149,7 @@
       <h3>Videos y animaciones</h3>
       <h5>Archivos de video y audio, imágenes y animaciones hechas por computador.</h5>
       <div class="row">
-        <imgs name="Solar_Eclipse_of_November_3%2C_2013%2C_Observed_from_Space.gif" author="max_r_punkt" album="3"></imgs>
+        <imgs name="Views of a simulated primordial galaxy, density map.png" author="Vis-sns" album="3"></imgs>
         <imgs name="Lunar_Mini-Magnetosphere.png" author="epp.golp" album="3"></imgs>
         <imgs full="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Movement_of_organelles_in_Tradescantia_stamen_hair_cells.webm/320px--Movement_of_organelles_in_Tradescantia_stamen_hair_cells.webm.jpg" video="https://upload.wikimedia.org/wikipedia/commons/9/95/Movement_of_organelles_in_Tradescantia_stamen_hair_cells.webm"
             author="Heiti Paves" album="3"></imgs>
@@ -190,7 +193,7 @@
               <br />
               <div class="btn-area">
                 <a href="https://commons.wikimedia.org/w/index.php?title=Special:CreateAccount&uselang=es" class="btn btn-primary btn-lg">Registrarse</a>
-                <a href="https://commons.wikimedia.org/wiki/Special:UploadWizard" class="btn btn-success btn-lg" v-if="test()">Participar</a>
+                <a href="https://commons.wikimedia.org/w/index.php?title=Special:UploadWizard&campaign=wsc-cl" class="btn btn-success btn-lg" v-if="test()">Participar</a>
                 <a class="btn btn-info btn-lg" disabled="disabled" v-if="!test()">Inicia {{falta()}} más</a>
               </div>
             </div>
