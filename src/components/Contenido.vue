@@ -66,7 +66,7 @@
             <div class="service_block">
               <div class="service_icon"> <span><i class="fa fa-calendar"></i></span> </div>
               <h3>Plazo</h3>
-              <p>Este concurso se <b>desarrollará en noviembre</b>. Solo las imágenes <b>subidas en noviembre de 2017</b> serán elegibles para la competencia.</p>
+              <p>El concurso se desarrollará durante el mes de noviembre y finalizará el <b>3 de diciembre a las 23:59 horas</b> (Chile Continental).</p>
             </div>
           </div>
           <div class="col-lg-4 borderLeft">
@@ -223,7 +223,7 @@ export default {
   },
   methods: {
     test() {
-      return moment().isAfter('2017-11-01') && moment().isBefore('2017-12-01');
+      return moment().isAfter('2017-11-01') && moment().isBefore('2017-12-04');
     },
     falta() {
       moment.locale('es');
